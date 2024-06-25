@@ -25,3 +25,4 @@ python-socketio[asyncio_client]
 pydantic
 selenium
 tiktoken
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
